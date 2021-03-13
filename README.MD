@@ -1,9 +1,10 @@
-                            ###### DOCKER ######
+                                              ###### DOCKER ######
+
 
 
   Une simple Dockerfile contenant un NGINX 1.19 pouvant accueillir un site web.
 
-Processus:
+processus:
 
 1) Installation de Docker (DEBIAN 10):
 
