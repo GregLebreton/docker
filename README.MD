@@ -2,9 +2,9 @@
 
 
 
-  Une simple Dockerfile contenant un NGINX 1.19 pouvant accueillir un site web.
+Une simple Dockerfile contenant un NGINX 1.19 pouvant accueillir un site web.
 
-  processus:
+processus:
 
 1) INSTALLATION DE DOCKER (DEBIAN 10):
 
