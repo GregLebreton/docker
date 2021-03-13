@@ -1,9 +1,9 @@
 ###### DOCKER ######
 
 
-Une simple Dockerfile contenant un NGINX 1.19 pouvant accueillir un site web.
+  Une simple Dockerfile contenant un NGINX 1.19 pouvant accueillir un site web.
 
-1) INSTALLATION DE DOCKER (DEBIAN 10):
+INSTALLATION DE DOCKER (DEBIAN 10):
 
   $ sudo apt-get update
 
@@ -24,15 +24,15 @@ Une simple Dockerfile contenant un NGINX 1.19 pouvant accueillir un site web.
 
   $ sudo apt-get install docker-ce docker-ce-cli containerd.io
   
-2) CONSTRUCTION DE L'IMAGE:
+CONSTRUCTION DE L'IMAGE:
  
   $ docker build .
   
-3) TAG DE L'IMAGE
+TAG DE L'IMAGE
 
   $ 
   
-4) DEMARRER UN CONTENAIRE DE L'IMAGE EN Y MAPPANT LE PORT 80 DE LA MACHINE HÔTE:
+TAG DEMARRER UN CONTENAIRE DE L'IMAGE EN Y MAPPANT LE PORT 80 DE LA MACHINE HÔTE:
 
   $
   
