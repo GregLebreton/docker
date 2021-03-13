@@ -47,15 +47,15 @@ Autres commandes utiles:
 
    - Effacer une image
 
-        $ docker rmi
+          $ docker rmi
 
    - Effacer un conteneur
 
-        $
+          $ docker rm
 
    - push un conteneur sur son registre DockerHub
 
-        $
+          $docker push
 
   
   
