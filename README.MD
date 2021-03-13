@@ -3,7 +3,7 @@
 
   Une simple Dockerfile contenant un NGINX 1.19 pouvant accueillir un site web.
 
-1) INSTALLATION DE DOCKER (DEBIAN 10):
+1) Installation de Docker (DEBIAN 10):
 
     $ sudo apt-get update
 
