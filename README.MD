@@ -28,7 +28,7 @@ CONSTRUCTION DE L'IMAGE:
  
   $ docker build .
   
-TAG DE L'IMAGE
+TAG DE L'IMAGE:
 
   $ 
   
