@@ -40,5 +40,22 @@ processus:
         $ docker run -d -p 80:80 <nom_de_votre_registre>/<nom_de_l'image>:<tag>
 
 5) VISITER SON NAVIGATEUR SUR LOCALHOST (127.0.0.1)
+
+
+
+Autres commandes utiles:
+
+   - Effacer une image
+
+        $ docker rmi
+
+   - Effacer un conteneur
+
+        $
+
+   - push un conteneur sur son registre DockerHub
+
+        $
+
   
   
