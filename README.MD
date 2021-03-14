@@ -45,17 +45,28 @@ processus:
 
 Autres commandes utiles:
 
-   - Effacer une image
+   - push un conteneur sur son registre DockerHub:
+
+          $ docker push
+          
+   - afficher les images docker:
+
+          $ docker ps
+          
+   - afficher les containers docker:
+
+          $ docker ls
+    
+   - Effacer une image:
 
           $ docker rmi
 
-   - Effacer un conteneur
+   - Effacer un conteneur:
 
           $ docker rm
 
-   - push un conteneur sur son registre DockerHub
-
-          $docker push
+      
+   
 
   
   
