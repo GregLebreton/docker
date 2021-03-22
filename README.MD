@@ -26,12 +26,17 @@ processus:
         $ sudo apt-get update
 
         $ sudo apt-get install docker-ce docker-ce-cli containerd.io
+        
+2) CREER UN COMPTE SUR DOCKER HUB:
+
+        https://hub.docker.com
+        
   
-2) CONSTRUCTION DE L'IMAGE:
+3) CONSTRUCTION DE L'IMAGE:
  
         $ docker build .
   
-3) TAG DE L'IMAGE:
+4) TAG DE L'IMAGE:
 
         $ docker tag <ID_de_l'image> <nom_de_votre_registre>/<nom_de_l'image>:<tag>
         
@@ -39,11 +44,11 @@ processus:
 
         $ docker run -d -p 80:80 -t <nom_de_l_image_docker>:<tag_de_l_image>
   
-4) DEMARRER UN CONTENAIRE DE L'IMAGE EN Y MAPPANT LE PORT 80 DE LA MACHINE HÔTE:
+5) DEMARRER UN CONTENAIRE DE L'IMAGE EN Y MAPPANT LE PORT 80 DE LA MACHINE HÔTE:
 
         $ docker run -d -p 80:80 <nom_de_votre_registre>/<nom_de_l'image>:<tag>
 
-5) VISITER SON NAVIGATEUR SUR LOCALHOST (127.0.0.1)
+6) VISITER SON NAVIGATEUR SUR LOCALHOST (127.0.0.1)
 
 
 
