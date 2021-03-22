@@ -34,6 +34,10 @@ processus:
 3) TAG DE L'IMAGE:
 
         $ docker tag <ID_de_l'image> <nom_de_votre_registre>/<nom_de_l'image>:<tag>
+        
+  * ou on peux tagger l'image lors du docker run:
+
+        $ docker run -d -p 80:80 -t <nom_de_l_image_docker>:<tag_de_l_image>
   
 4) DEMARRER UN CONTENAIRE DE L'IMAGE EN Y MAPPANT LE PORT 80 DE LA MACHINE HÔTE:
 
