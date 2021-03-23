@@ -31,6 +31,10 @@ processus:
 
         https://hub.docker.com
         
+ * clonage du repo Docker:
+
+        $ sudo git clone https://github.com/GregLebreton/docker.git
+        
   
 3) CONSTRUCTION DE L'IMAGE:
  
