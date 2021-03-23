@@ -50,10 +50,11 @@ processus:
   
 5) DEMARRER UN CONTENAIRE DE L'IMAGE EN Y MAPPANT LE PORT 80 DE LA MACHINE HÔTE:
 
-        $ docker run -d -p 80:80 <nom_de_votre_registre>/<nom_de_l'image>:<tag>
+        $ docker run -d -p 7000:80 <nom_de_votre_registre>/<nom_de_l'image>:<tag>
 
-6) VISITER SON NAVIGATEUR SUR LOCALHOST (127.0.0.1)
+6) VISITER SON NAVIGATEUR A L'ADRESSE:
 
+        0.0.0.0:7000
 
 
 Autres commandes utiles:
