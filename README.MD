@@ -25,7 +25,7 @@ processus:
 
         $ sudo apt-get update
 
-        $ sudo apt-get install docker-ce docker-ce-cli containerd.io
+        $ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
         
 2) CREER UN COMPTE SUR DOCKER HUB:
 
